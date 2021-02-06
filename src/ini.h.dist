@@ -1,0 +1,24 @@
+/************************* WiFi Access Point *********************************/
+
+#define WLAN_SSID       "ssid"
+#define WLAN_PASS       "ssid password"
+
+/************************* OTA params *********************************/
+
+const char* otaPassword = "password";  // OTA update password
+
+/************************* MQTT Broker Setup *********************************/
+
+#define MQTT_SERVER      "1.1.1.1"
+#define MQTT_SERVERPORT  1883                   // use 8883 for SSL
+#define MQTT_USERNAME    "blah"
+#define MQTT_PASSWORD    ""
+const String MQTT_NODE = "blah";
+
+#define INFLUXHOST "1.1.1.1"
+#define INFLUXPORT  1111
+
+/************************* Pins *********************************/
+#define RELAIS_PIN D3
+#define DSPIN D5
+#define INPUT_PIN A0
